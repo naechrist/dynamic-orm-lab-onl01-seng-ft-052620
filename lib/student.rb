@@ -18,7 +18,9 @@ class Student < InteractiveRecord
     end
     column_names.compact
   end
-  self.column_names
+  self.column_names.each do |col_name|
+    
+  end
   
   def initialize(options={})
     options.each do |property, value|
