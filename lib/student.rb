@@ -19,4 +19,7 @@ class Student < InteractiveRecord
     column_names.compact
   end
   
+  def initialize
+    
+  end
 end
