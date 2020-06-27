@@ -2,6 +2,8 @@ require_relative "../config/environment.rb"
 require 'active_support/inflector'
 
 class InteractiveRecord
+  
+  
   def self.find_by(attribute)
     column_name = attribute.keys[0].to_s
     value_name = attribute.values[0]
