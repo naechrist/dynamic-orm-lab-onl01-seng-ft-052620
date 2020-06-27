@@ -45,7 +45,7 @@ class Student < InteractiveRecord
       unless send(col_name).nil?
     end
   values.join(", ")
-end 
+  end 
 
 def col_names_for_insert 
   self.class.column_names.delete_if {|col| col == "id"}.join(", ")
