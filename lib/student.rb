@@ -29,6 +29,6 @@ class Student < InteractiveRecord
   end
   
   def save 
-    
+    sql = 
   end
 end
